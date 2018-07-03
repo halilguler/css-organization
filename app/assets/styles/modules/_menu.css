@@ -1,0 +1,28 @@
+.menu{
+    text-align: center;
+    &__ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $mainBlue;
+    }
+
+    &__list{
+        float: left;
+    }
+
+    &__list__link{
+        display: block;
+        color: $mainWhite;
+        text-align: center;
+        padding: 1.2rem 1.5rem;
+        text-decoration: none;
+    }
+
+    &__list__link:hover{
+        background-color: $mainOrange;
+    }
+
+
+}
